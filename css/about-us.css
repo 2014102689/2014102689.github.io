@@ -1,0 +1,33 @@
+body{
+    background-image: url(../images/action-celebration-club-341858.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#sec-b-bg{
+    background:none;
+    box-shadow: none;
+}
+.text-border{
+    width: 100%;
+    color: #ce567c;
+    letter-spacing: 8px;
+    margin-top: 25vh;
+    letter-spacing: 8px;
+}
+
+#span-text{
+    font-weight: bold;
+    font-style: normal;
+    color: #ce567c;
+}
+@media only screen and (max-width:  767px){
+    .text-border-desclaimer{
+    margin-top: 20px;
+    padding: 0px 3px 0 3px;
+    font-size: 30px;
+}
+p{
+    padding:20px;
+}
+}

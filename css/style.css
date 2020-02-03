@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #777;
+}
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+a {
+    font-family:Verdana;
+    text-decoration: none;
+    color: #cacaca !important;
+}
+
+p,#text-span{
+    color: #cacaca;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 240px;
+     font-style: italic;
+     text-align: center;
+}
+
+li{
+    list-style-type: none;
+    font-size: 85%;
+    letter-spacing: 1px; 
+}
+#logo{
+    background: url(../images/vape-logo-png-3.png);
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0,0,0,5);
+}
+h1{ 
+    font-family: verdana;
+    font-style: oblique;
+    padding-top: 25px;
+    padding-left:10px;
+    color: #cecece !important;
+}
+.section-b{
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+}
+#sec-b-bg{
+    background-image: url(../images/cap-close-up-crowd-858484.jpg);
+    min-height: 100vh;
+    width: 100%;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0 20px 50px rgba(0,0,0,5);  
+}
+.text-border , .h2-text-wrapper{
+    font-family: Verdana;
+    font-style: oblique;
+    width: auto;
+    color: #999;
+    letter-spacing: 8px;
+    justify-content: center;
+}
+.p-hover:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,2);
+    transition: 1s;
+}
+.gridwrapper{
+    margin-top: 2em;
+    padding: 2em; 
+}
+.grid{
+    background-image:url(../images/carbon-fiber-desktop-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: inline-grid;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    box-shadow: 0 20px 50px rgba(0,0,0,5); 
+}
+#section-c > .h2-text-wrapper{
+    background-image: url(../images/young-beautiful-woman-smoking-vaping.png); 
+}
+#section-d > .h2-text-wrapper{
+    background-image: url(../images/cigarette-close-up-daytime-963444.jpg);    
+}
+#section-e > .h2-text-wrapper{
+    background-image: url(../images/girl-vaping.jpg);    
+}
+.h2-text-wrapper{
+    padding-top: 65px;
+    height:200px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    box-shadow: 0 20px 50px rgba(0,0,0,5); 
+}
+hr{
+    width: 100%;
+    height: 2px; 
+}
+footer{
+    font-style: normal;
+    width: 100%;
+    height: 5em;
+    display: inline-grid;
+    background: #333;
+    background-size: cover;
+    text-align: center;
+    z-index:1;
+    line-height: 3px;
+}

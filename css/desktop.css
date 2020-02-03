@@ -1,0 +1,143 @@
+
+/********************DESKTOP VIEW***************************/
+
+@media only screen and (min-width:  768px){
+    .drop{
+    	padding: 0;
+    	margin: 0;
+    }
+    .droplist{
+        font-weight: bold;
+        text-align: center;
+        padding: 20px 2em 0 0;
+        float: right;
+    }
+    .droplist>li{
+        display: inline-grid; 
+        transition: .5s;
+    }
+    .droplist>li>a{
+        padding: 1em;   
+    }
+     .droplist>li:hover{
+        transform: rotateX(1deg);
+        transform: rotateY(360deg);
+        border-bottom:1px solid #fff;
+         box-shadow: 0 10px 30px rgba(0,0,0,1);
+    }
+    .section-a{
+        position: fixed;
+        font-weight: bold;
+        height: 100%;
+        width: 190px;
+        padding-right: 2em; 
+        margin-left: 2em;
+        text-align: right;
+        box-shadow: 0 10px 30px rgba(0,0,0,1);
+    } 
+    .section-a>ul{
+        margin-top: 50vh;
+        width: 0;
+        z-index: 1;
+    }
+    .section-a>.sidebar-bg{
+        background-image: url(../images/attractive-beautiful-beauty-354666.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+        opacity: .6;
+        height: 100%;
+        width: 190px;
+        position: fixed;
+        border:1px solid #333;
+        box-shadow: 0 10px 30px rgba(0,0,0,1);
+        z-index: -1;
+    }
+    .section-a>ul>li{
+       padding: 3px;
+        margin: 2px;
+        width: 148px;
+        border-right: 5px solid #333;
+       transition: .3s;
+       z-index: 1;
+    }
+    .section-a>ul>li:hover{
+        margin-left: 80px;
+        border-bottom: 2px solid #333;
+    }
+    #logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 0;
+    margin: 10px 0 0 5em;
+    transition: .5s;
+	}
+	#logo:hover{
+		transform: scale(1.2);
+        margin-top: 30px;
+    }
+
+.text-border{
+    margin-top:50vh;
+    letter-spacing: 8px;
+}
+.coll-wrapper{
+    width: 100%;
+    padding: 0px 20px 0 120px;
+    margin-top: -3em;
+    margin-bottom: 3em;
+}
+.collections>li{
+    display: inline-grid;
+    height: 260px;
+    width: 200px;
+    margin-right: 80px;
+    transition: .5s;
+    transform: rotate(35deg) skew(-20deg) scale(.8);
+}
+
+.collections>li>a>img{
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    background: rgba(0,0,0,.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,2);
+}
+.collections>li>a>img:nth-child(1){
+    transform: translate(-2px, -2px);
+    opacity: .1;
+}
+.collections>li>a>img:nth-child(2){
+    transform: translate(-3px, -3px);
+    opacity: .3;
+}
+.collections>li>a>img:nth-child(3){
+    transform: translate(-4px, -4px);
+    opacity: .5;
+}
+.collections>li>a>img:nth-child(4){
+    transform: translate(-5px, -5px);
+    opacity: 1;
+}
+.collections>li>a:hover{
+     box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+.collections>li>a:hover>img:nth-child(4){
+    transform: translate(-80px, -80px);
+    opacity: 1;
+}
+.collections>li>a:hover>img:nth-child(3){
+    transform: translate(-60px, -60px);
+    opacity: .5;
+}
+.collections>li>a:hover>img:nth-child(2){
+    transform: translate(-40px, -40px);
+    opacity: .3;
+}
+.collections>li>a:hover>img:nth-child(1){
+    transform: translate(-20px, -20px);
+    opacity: .1;
+}
+}
