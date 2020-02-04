@@ -12,7 +12,9 @@ header{
 a {
     font-family:Verdana;
     text-decoration: none;
-    color: #cacaca !important;
+    background: -webkit-linear-gradient(#02bfff,#ce567c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p,#text-span{
@@ -30,8 +32,9 @@ li{
     letter-spacing: 1px; 
 }
 #logo{
-    background: url(../images/vape-logo-png-3.png);
-    background-size: cover;
+    background: url(../images/bryprofile.jpg);
+    background-size: 150px;
+    background-position: top;
     border-radius: 50%;
     box-shadow: 0 10px 30px rgba(0,0,0,5);
 }
@@ -40,7 +43,14 @@ h1{
     font-style: oblique;
     padding-top: 25px;
     padding-left:10px;
-    color: #cecece !important;
+  background: -webkit-linear-gradient(#02bfff,#ce567c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2{
+    background: -webkit-linear-gradient(#02bfff,#ce567c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .section-b{
     text-align: center;
@@ -48,7 +58,7 @@ h1{
     min-height: 100vh;
 }
 #sec-b-bg{
-    background-image: url(../images/cap-close-up-crowd-858484.jpg);
+    background-image: url(../images/colorful.png);
     min-height: 100vh;
     width: 100%;
     z-index: -1;
@@ -87,7 +97,7 @@ h1{
     box-shadow: 0 20px 50px rgba(0,0,0,5); 
 }
 #section-c > .h2-text-wrapper{
-    background-image: url(../images/young-beautiful-woman-smoking-vaping.png); 
+    background-image: url(../images/Wallpaper.jpg); 
 }
 #section-d > .h2-text-wrapper{
     background-image: url(../images/cigarette-close-up-daytime-963444.jpg);    
